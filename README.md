@@ -2,13 +2,13 @@
 
 **dnSpyExAI** is an enhanced version of [dnSpyEx](https://github.com/dnSpyEx/dnSpy) featuring the **ChatAnalyzer** extension - an AI-powered security analysis tool that leverages OpenAI's GPT models to analyze .NET assemblies for vulnerabilities and cheat detection.
 
-## 🚀 New Features: ChatAnalyzer Extension
+## New Features: ChatAnalyzer Extension
 
-- **🔍 AI-Powered Vulnerability Analysis** - Advanced security assessment using GPT-5 for identifying high-severity vulnerabilities
-- **🎮 Game Cheat Detection** - Specialized analysis for gaming applications to identify potential cheat vectors
-- **📊 Detailed IL Code Analysis** - Deep inspection of Intermediate Language code for security weaknesses
-- **🎯 Prioritized Threat Assessment** - Focus on CRITICAL and HIGH severity vulnerabilities (RCE, DoS, privilege escalation)
-- **⚡ Real-time Analysis** - Analyze selected methods, classes, or entire assemblies with AI assistance
+- ** AI-Powered Vulnerability Analysis** - Advanced security assessment using GPT-5 for identifying high-severity vulnerabilities
+- ** Game Cheat Detection** - Specialized analysis for gaming applications to identify potential cheat vectors
+- ** Detailed IL Code Analysis** - Deep inspection of Intermediate Language code for security weaknesses
+- ** Prioritized Threat Assessment** - Focus on CRITICAL and HIGH severity vulnerabilities (RCE, DoS, privilege escalation)
+- ** Real-time Analysis** - Analyze selected methods, classes, or entire assemblies with AI assistance
 
 ## Core dnSpyExAI Features
 
