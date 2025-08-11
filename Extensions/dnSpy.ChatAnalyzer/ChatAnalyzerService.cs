@@ -536,9 +536,9 @@ Provide thorough technical analysis focused exclusively on HIGH/CRITICAL securit
 				return $"❌ **Request too large** ({estimatedTokens:N0} estimated tokens)\n\nPlease select less code for analysis. Try analyzing smaller methods or classes individually.";
 			}
 
-			// Set a longer timeout - try 3 minutes first, then increase if needed
+			// Set a longer timeout - try 10 minutes first, then increase if needed
 			using var cts = new System.Threading.CancellationTokenSource();
-			cts.CancelAfter(TimeSpan.FromMinutes(3)); // 3 minute timeout
+			cts.CancelAfter(TimeSpan.FromMinutes(10)); // 10 minute timeout
 
 			// Try GPT-5 Responses API first, fallback to Chat Completions
 			object requestBody;
