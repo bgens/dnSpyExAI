@@ -4,11 +4,11 @@
 
 ## New Features: ChatAnalyzer Extension
 
-- ** AI-Powered Vulnerability Analysis** - Advanced security assessment using GPT-5 for identifying high-severity vulnerabilities
-- ** Game Cheat Detection** - Specialized analysis for gaming applications to identify potential cheat vectors
-- ** Detailed IL Code Analysis** - Deep inspection of Intermediate Language code for security weaknesses
-- ** Prioritized Threat Assessment** - Focus on CRITICAL and HIGH severity vulnerabilities (RCE, DoS, privilege escalation)
-- ** Real-time Analysis** - Analyze selected methods, classes, or entire assemblies with AI assistance
+- **AI-Powered Vulnerability Analysis** - Advanced security assessment using GPT-5 for identifying high-severity vulnerabilities
+- **Game Cheat Detection** - Specialized analysis for gaming applications to identify potential cheat vectors
+- **Detailed IL Code Analysis** - Deep inspection of Intermediate Language code for security weaknesses
+- **Prioritized Threat Assessment** - Focus on CRITICAL and HIGH severity vulnerabilities (RCE, DoS, privilege escalation)
+- **Real-time Analysis** - Analyze selected methods, classes, or entire assemblies with AI assistance
 
 ## Core dnSpyExAI Features
 
