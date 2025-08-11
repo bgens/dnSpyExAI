@@ -648,7 +648,7 @@ Before you analyze, explain your approach and what you'll be looking for.
 				}
 					}
 		catch (System.Threading.Tasks.TaskCanceledException ex) when (ex.CancellationToken.IsCancellationRequested) {
-			return $"❌ **Request Timeout**: The analysis took longer than 3 minutes and was canceled.\n\n**Possible causes:**\n• Slow network connection to OpenAI\n• API rate limiting\n• Large request size\n\n**Try:**\n• Check your internet connection\n• Wait a moment and try again\n• Select smaller code sections\n\n**Debug info:** Estimated tokens: {EstimateTokenCount(prompt):N0}";
+			return $"❌ **Request Timeout**: The analysis took longer than 10 minutes and was canceled.\n\n**Possible causes:**\n• Slow network connection to OpenAI\n• API rate limiting\n• Large request size\n\n**Try:**\n• Check your internet connection\n• Wait a moment and try again\n• Select smaller code sections\n\n**Debug info:** Estimated tokens: {EstimateTokenCount(prompt):N0}";
 		}
 		catch (System.Threading.Tasks.TaskCanceledException) {
 			return $"❌ **Request Canceled**: The request was canceled unexpectedly.\n\n**Try:**\n• Check your internet connection\n• Verify your OpenAI API key is valid\n• Select smaller code sections\n\n**Debug info:** Estimated tokens: {EstimateTokenCount(prompt):N0}";
